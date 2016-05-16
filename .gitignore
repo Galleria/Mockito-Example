@@ -1,0 +1,10 @@
+bin/com/test/mockito/Mockito_Annotation.class
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/Test-Mockito/Test-Mockito/pom.properties
+target/classes/META-INF/maven/Test-Mockito/Test-Mockito/pom.xml
+target/classes/com/project/repositories/HistoryPersistence.class
+target/classes/com/project/repositories/ProfilePersistence.class
+target/classes/com/project/repositories/UserPersistence.class
+target/classes/com/project/service/ProfileService.class
+target/classes/com/project/service/UserService.class
+target/classes/com/test/mockito/Mockito_Annotation.class
