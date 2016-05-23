@@ -96,6 +96,6 @@ public class Mockito_Annotation {
 	public void CallPrivateMethodByPowerMock() throws Exception{
 		UserService classUnderTest = PowerMockito.spy(us);
 		classUnderTest.callPrivateMethod();
-		PowerMockito.verifyPrivate( classUnderTest , times(2)).invoke("imPrivate");
+		PowerMockito.verifyPrivate( classUnderTest , times(1)).invoke("imPrivate");
 	}
 }

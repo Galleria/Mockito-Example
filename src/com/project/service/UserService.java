@@ -8,6 +8,7 @@ public class UserService {
 	private HistoryPersistence hs;// = new HistoryPersistence();
 	private ProfileService pp;
 	
+	private String DetailStr;
 	
 	public UserService(){
 		up = new UserPersistence();
@@ -42,5 +43,10 @@ public class UserService {
 	
 	private void imPrivate(){
 		System.out.println("I'm Private");
+	}
+	
+	public String callPrivateVariable(){
+		System.out.println( DetailStr );
+		return DetailStr;
 	}
 }
