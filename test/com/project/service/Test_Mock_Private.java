@@ -72,7 +72,7 @@ public class Test_Mock_Private {
 	@Test
 	public void verifyCallingPrivateMethod() throws Exception {	
 		PrivateService psSpy = PowerMockito.spy( privateService );
-		String msg= WhiteboxImpl.invokeMethod(psSpy, "toggleCaseString",helloPrivate);
+		String msg = WhiteboxImpl.invokeMethod(psSpy, "toggleCaseString",helloPrivate);
 		verifyPrivate( psSpy ,times(1) ).invoke("toggleCaseString", anyString());
 	}
 	
