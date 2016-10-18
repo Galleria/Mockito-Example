@@ -1,3 +1,6 @@
+WIP
+=====================================================
+
 This project is tutorial how to use Mockito and Powermock with Junit for creating unit test (Java project).
 
 First of all, 
